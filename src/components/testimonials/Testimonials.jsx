@@ -15,7 +15,7 @@ const data = [
 
   {
     avata: Avt2,
-    name: "SLY KEL",
+    name: "Elion Commerce -CEO",
     review: "She's the BEST",
   },
 

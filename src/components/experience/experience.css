@@ -1,6 +1,7 @@
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap:2rem;
     gap: 2rem;
 }
 
@@ -27,19 +28,19 @@
 .experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2rem;
     row-gap: 2rem;
-    column-gap: 4rem;
 }
 
 .experience__details {
     display: flex;
+    grid-gap: 1rem;
     gap: 1rem;
 }
 
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
-    font-size: 1.5rem fix;
     
 }
 /* ==========MEDIA QUERIES (MEDIUM DEVICES) ========== */
@@ -67,6 +68,7 @@
 
     .experience__container > div{
         width:100%;
-        padding: 2rem 1rem;
+        padding: 2rem 0;
+        overflow-x: hidden;
     }
  }

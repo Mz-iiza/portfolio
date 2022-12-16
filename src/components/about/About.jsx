@@ -30,7 +30,7 @@ const About = () => {
             <article className="about__card">
               <FaUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>150+ Worldwide</small>
+              <small>15+ Worldwide</small>
             </article>
 
             <article className="about__card">
@@ -41,7 +41,7 @@ const About = () => {
           </div>
 
           <p>
-          Solution oriented and zealous about the job, a software engineer with an understanding of web development process, 
+          I am solution oriented and zealous about the job, a software engineer with an understanding of web development process, 
           including design, development and deployment. Ready to team-up
           with existing staff and work with the available facilities in order to attain
           organizational goals and objectives.

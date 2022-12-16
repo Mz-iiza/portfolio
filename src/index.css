@@ -37,13 +37,15 @@ body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
   color: var(--color-white);
-  line-height: 1.7;
+  line-height: 1.7rem;
   background-image: url(../src/assets/subtle-stripes.png);
+  overflow-x: hidden;
 }
 
 /*====GENERAL STYLES====*/
 
 .container {
+  width: 75%;
   width: var(--container-width-lg);
   margin: 0 auto;
 }
@@ -119,11 +121,17 @@ img {
 /*======== MEDIA QUERIES (MEDIUM DEVICES) ========*/
 @media screen and (max-width: 1204px) {
   .container {
+    width: 86%;
     width: var(--container-width-md);
   }
 
   section {
     margin-top: 6rem;
+  }
+
+  body {
+    max-width: 1204px;
+    overflow-x: hidden;
   }
 }
 
@@ -135,5 +143,10 @@ img {
 
   section > h2 {
     margin-bottom: 2rem;
+  }
+
+  body {
+    max-width: 600px;
+    overflow-x: hidden;
   }
 }

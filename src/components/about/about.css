@@ -41,6 +41,7 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  transform: var(--transition);
 }
 
 .about__card:hover {
@@ -94,7 +95,7 @@
     margin: 0 auto 3rem;
   }
 
-  .about__card {
+  .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
@@ -105,6 +106,11 @@
 
   .about__content p {
     margin: 1.5rem 0;
+  }
+
+  .container {
+    width: 90%;
+    width: var(--container-width-sm);
   }
 
  /* .about__me-image {
