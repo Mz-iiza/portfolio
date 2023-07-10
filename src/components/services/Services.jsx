@@ -11,17 +11,21 @@ const Services = () => {
    <div className="container services__container">
     <article className="service">
       <div className="service__head">
-        <h3> JUNIOR DEV</h3>
+        <h3> SOFTWARE DEVELOPER</h3>
       </div>
 
       <ul className='service__list'>
         <li>
           <BiCheck className='service__list-icon' />
-          <p>Managing all aspects of the CMS. </p>
+          <p>Managing all aspects of the product lifecycle management PLM. </p>
         </li>
         <li>
           <BiCheck className='service__list-icon' />
-          <p>Wordpress website both backend and frontend development.</p>
+          <p>Excellent understanding of software methodologies, including Agile and Scrum.</p>
+        </li>
+        <li>
+          <BiCheck className='service__list-icon' />
+          <p>Eperience in version control technologies such as Git & understanding of collaborative workflow. </p>
         </li>
         <li>
           <BiCheck className='service__list-icon' />
@@ -29,11 +33,7 @@ const Services = () => {
         </li>
         <li>
           <BiCheck className='service__list-icon' />
-          <p>Managing the domain and email services </p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon' />
-          <p>Monitored website performance and handled troubleshooting. </p>
+          <p>Effective communication, teamwork, problem-solving and adaptabbility to a team environment. </p>
         </li>
       </ul>
 
@@ -49,19 +49,15 @@ const Services = () => {
       <ul className='service__list'>
         <li>
           <BiCheck className='service__list-icon' />
-          <p>Designing user interfaces and navigation menus. </p>
+          <p>Writing and reviewing code for sites, typically HTML, CSS, JavaScript, React Js, Vue Js, Next Js & TypeScript. </p>
         </li>
         <li>
           <BiCheck className='service__list-icon' />
-          <p>Writing and reviewing code for sites, typically HTML, CSS, JavaScript or React Js. </p>
+          <p>Integrating multimedia content onto a site, configuring API end points and handling authentication. </p>
         </li>
         <li>
           <BiCheck className='service__list-icon' />
-          <p>Integrating multimedia content onto a site. </p>
-        </li>
-        <li>
-          <BiCheck className='service__list-icon' />
-          <p>Collaborating with designers, developers, and stakeholders and Testing web applications. </p>
+          <p>Collaborating with designers, developers, and stakeholders on project plans and technical execution. </p>
         </li>
         <li>
           <BiCheck className='service__list-icon' />

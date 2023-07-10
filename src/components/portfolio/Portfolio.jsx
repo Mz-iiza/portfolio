@@ -3,52 +3,54 @@ import './portfolio.css'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG3 from '../../assets/portfolio3.png'
-import IMG4 from '../../assets/portfolio5.png'
+import IMG4 from '../../assets/portfolio4.png'
+import IMG6 from '../../assets/portfolio6.png'
+import IMG7 from '../../assets/portfolio7.png'
 
 
 //DATA ARRAY
 const data = [
   {
     id:1,
-    image:IMG1,
-    title:'Nour Education',
-    github: 'https://github.com/Mz-iiza',
-    demo: 'https://noureducation.com/',
+    image:IMG6,
+    title:'Store',
+    github: 'https://github.com/Mz-iiza/question3',
+    demo: 'https://fake-auth-1.web.app/',
   },
   {
     id:2,
-    image:IMG2,
-    title:'Bows and butter, body butter website',
-    github: 'https://github.com/Mz-iiza',
-    demo: 'https://bowsandbutter.netlify.app/',
+    image:IMG3,
+    title:'CareFinder',
+    github: 'https://github.com/Mz-iiza/carefinder',
+    demo: 'https://carefinder.live/',
   },
   {
     id:3,
-    image:IMG3,
-    title:'Counter',
+    image:IMG7,
+    title:'Spokes Network',
     github: 'https://github.com/Mz-iiza',
-    demo: 'https://cerulean-mandazi-6c7412.netlify.app/',
+    demo: 'https://spokes-network.com/',
   },
   {
     id:4,
     image:IMG4,
-    title:'Education',
-    github: 'https://github.com/Mz-iiza',
-    demo: 'https://noureducation.com/',
+    title:'Counter 2.0',
+    github: 'https://github.com/Mz-iiza/exam-counter-altschool',
+    demo: 'https://counter-2.netlify.app/',
   },
   {
     id:5,
-    image:IMG1,
-    title:'Bows and butter, body butter website',
-    github: 'https://github.com',
+    image:IMG2,
+    title:'Bows and butter, body butter',
+    github: 'https://github.com/Mz-iiza/bows-butter',
     demo: 'https://bowsandbutter.netlify.app/',
   },
   {
     id:6,
     image:IMG1,
-    title:'Bows and butter, body butter website',
+    title:'Nour Education',
     github: 'https://github.com',
-    demo: 'https://bowsandbutter.netlify.app/',
+    demo: 'https://noureducation.com/temp/',
   },
 ]
 const Portfolio = () => {

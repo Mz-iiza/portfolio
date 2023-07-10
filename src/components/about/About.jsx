@@ -2,8 +2,8 @@ import React from "react";
 import "./about.css";
 import MEE from "../../assets/mee.jpg";
 import { FaAward } from "react-icons/fa";
-import { FaUsers } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { TbWriting} from "react-icons/tb";
 
 const About = () => {
   return (
@@ -26,14 +26,14 @@ const About = () => {
               <h5>Experience</h5>
               <small>1+ year of Working</small>
             </article>
-
+          
             <article className="about__card">
-              <FaUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>15+ Worldwide</small>
+              <TbWriting className="about__icon" />
+              <h5>Articles</h5>
+              <small>5+ Completed</small>
             </article>
 
-            <article className="about__card">
+          <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>5+ Completed</small>
